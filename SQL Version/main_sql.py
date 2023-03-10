@@ -7,8 +7,8 @@ def che():
         name = input()
         #Введите вопрос
         print("Введите вопрос")
-        question = input()
-        res = chat.chater(name, question)
+        message = input()
+        res = chat.chater(name, message)
         print(res)
         
 if __name__ == "__main__":
