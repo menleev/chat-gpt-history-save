@@ -11,7 +11,6 @@ class ChatGPTurbo():
     
     #главная функция
     def chater(self, user, message):
-        #создаем таблицу chatgpt.db
         while True:
             try:
                 if user[0].isdigit(): #проверяем на наличие цифры в начале имени
