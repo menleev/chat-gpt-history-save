@@ -29,7 +29,7 @@ class ChatGPTurbo():
     
     #отправляем запрос чтобы получить ответ от бота
     async def response(self, user, data):
-        response = openai.ChatCompletion.create(
+        response = openai.ChatCompletion.acreate(
             model="gpt-3.5-turbo", 
             messages=data
         )
